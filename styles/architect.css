@@ -192,6 +192,17 @@ bottom: 100px;
 .sponsors-img-container img{
   width: 165px;
 }
+footer{
+  border-radius: 8px;
+background: #FFF4E7;
+margin: 0 240px;
+text-align: center;
+padding:20px;
+margin-bottom: 50px;
+}
+footer small{
+  
+}
 
 
 
@@ -210,7 +221,7 @@ bottom: 100px;
     }
     .feature-img img{
       width: 90%;
-      margin-left: 0;
+      margin-left: 5px;
 
     }
 
@@ -233,6 +244,9 @@ bottom: 100px;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
     }
+    footer {
+      margin: 0;
+    }
     
     
   }
@@ -246,6 +260,10 @@ bottom: 100px;
   nav, .teams-container,.features,.sponsors-img-container{
     flex-direction: column;
   }
+  .ten-years-badge{
+    position: static;
+    margin-left: 10px;
+  }
   .feature-content{
     
   }
@@ -257,5 +275,8 @@ bottom: 100px;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin: 0 20px;
+  }
+  footer{
+    margin: 100px;
   }
 }
